@@ -6,12 +6,9 @@ In this project, you can explore into the universe of Rick and Morty and find ev
 
 **Table of Contents
 
-- Features
+- Additions
 - Technologies Used
-- Getting Started
-- How It Works
-- Contributing
-- Author
+- Setup
 
 **Additions
 
@@ -31,10 +28,7 @@ In this project, you can explore into the universe of Rick and Morty and find ev
 
 - Make sure you have Node.js(https://nodejs.org/) and npm(https://www.npmjs.com/) installed on your machine.
 - A stable internet connection is required to fetch character data from the API.
-
-**Installation Steps
-
-1. Clone the Repository
+- Clone the Repository
    ```bash
    git clone https://github.com/yourusername/rickandmorty.git
    cd rickandmorty
