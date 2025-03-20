@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Rick and Morty Characters
 
-## Getting Started
+Welcome to the project that will help you learn about Rick and Morty Characters 
 
-First, run the development server:
+In this project, you can explore into the universe of Rick and Morty and find every character from the show. You can see every character, how they look like and you can filter them by status and species, sort them alphabetically or by origin, and discover more about them as you go.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Features
+- Technologies Used
+- Getting Started
+- How It Works
+- Contributing
+- Author
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Additions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Filter characters by their status (Alive, Dead, Unknown) and species (Human, Alien, Unknown).
+- Sort the characters by name or their origin.
+- Infinite Scroll: more characters you load automatically as you scroll down!
+- Background image of Rick and Morty that stays fixed while you navigate through the character list.
 
-## Learn More
+**Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- React for UI
+- Apollo Client for GraphQL and data fetching
+- CSS for styling and layout
+- Rick and Morty API (https://rickandmortyapi.com) for character data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Make sure you have Node.js(https://nodejs.org/) and npm(https://www.npmjs.com/) installed on your machine.
+- A stable internet connection is required to fetch character data from the API.
 
-## Deploy on Vercel
+**Installation Steps
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/yourusername/rickandmorty.git
+   cd rickandmorty
